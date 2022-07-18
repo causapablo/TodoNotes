@@ -49,8 +49,8 @@ const CreateNote = () => {
                     <div>
                         <textarea className="focus:shadow-outline resize-none appearance-none rounded border py-2 px-3 text-2xl leading-tight text-gray-700 shadow focus:outline-none" name='content' cols="23" rows="5" onChange={(e) => { handleChange(e) }}></textarea>
                     </div>
-                    <button className="text-2xl border-blue-900 border-4 mt-6 px-8 py-2 rounded-lg" type='submit'>Add Note</button>
-                    <Link to={'/'}><button className="text-2xl border-blue-900 border-4 mt-6 px-8 py-2 rounded-lg" type='button' >Cancelar</button></Link>
+                    <button className="text-2xl border-blue-900 border-4 mt-6 px-8 py-2 rounded-lg mx-2" type='submit'>Add Note</button>
+                    <Link to={'/'}><button className="text-2xl border-blue-900 border-4 mt-6 px-8 py-2 rounded-lg mx-2" type='button' >Back</button></Link>
                 </form>
                 
             </div>
