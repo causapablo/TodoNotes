@@ -1,4 +1,3 @@
-# GitHubcausapablo-Ensolvers-challange
 1) npm install in both folders, frontend and backend.
 2) run both folders with npm start.
 3) You need to create a database with name "todo" in postgre.
