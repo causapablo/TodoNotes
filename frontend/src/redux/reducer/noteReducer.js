@@ -11,7 +11,7 @@ const initialState = {
     notesBackUp: [],
     noteDetail: {},
     categories: [],
-    
+    archivedNotes : [],
     cache: "allCategories"
 };
 
